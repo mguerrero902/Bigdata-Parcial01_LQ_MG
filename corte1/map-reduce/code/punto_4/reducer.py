@@ -6,6 +6,8 @@ word = None
 year = 0
 value = 0
 
+order = list()
+
 for line in sys.stdin:
     word, year, value = line.split(",")
     if(word != "Town/City "):
